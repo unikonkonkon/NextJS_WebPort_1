@@ -31,7 +31,7 @@ export default function Example() {
                 {/* Image*/}
                 <div className="inline-flex items-center justify-center ">
                   <Link href="/">
-                    <div className="h-10 w-10 bg-cover bg-[url('/port2.jpg')] rounded-full"></div>
+                    <div className="h-10 w-10 bg-cover bg-[url('/test-portrait.jpg')] rounded-full"></div>
                     {/* <Image src="/port1.jpg" width={40} height={30} className="rounded-full " alt={""} />  */}
                     
                   </Link>

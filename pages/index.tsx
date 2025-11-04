@@ -13,7 +13,7 @@ export default function index() {
       <Navigatorbar/>
       </div>
     
-      <div className="pt-16 z-0 bg-[url('/bg1.jpg')]">
+      <div className="pt-16 z-0 bg-[url('/test-bg.jpg')]">
       <Home/>
       </div>
      

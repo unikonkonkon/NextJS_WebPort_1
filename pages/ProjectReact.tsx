@@ -7,49 +7,49 @@ export default function ProjectReact() {
   const reactCRUD = [ 
     {
       id: 7,
-      head: "หน้าแสดงข้อมูล",
+      head: "Test Display Data",
       href: "#",
       imageSrc: "ReactCURD1.png",
       data: " ",
     },
     {
       id: 8,
-      head: "หน้าสร้างข้อมูล",
+      head: "Test Create Data",
       href: "#",
       imageSrc: "/ReactCURD2.png",
       data: " ",
     },
     {
       id: 9,
-      head: "ข้อมูลที่เพิ่มขึ้นมา",
+      head: "Test Added Data",
       href: "#",
       imageSrc: "ReactCURD3.png",
       data: " ",
     }, 
     {
       id: 10,
-      head: "หน้าแก้ไขข้อมูล",
+      head: "Test Edit Data",
       href: "#",
       imageSrc: "ReactCURD4.png",
       data: " ",
     },
     {
       id: 11,
-      head: "แสดงข้อมูลที่แก้ไข้แล้ว",
+      head: "Test Updated Data",
       href: "#",
       imageSrc: "ReactCURD5.png",
       data: " ",
     },
     {
       id: 12,
-      head: "หน้าแสดงการลบข้อมูล",
+      head: "Test Delete Data",
       href: "#",
       imageSrc: "ReactCURD6.png",
       data: " ",
     },
     {
       id: 13,
-      head: "หน้าที่ข้อมูลลบเสร็จ",
+      head: "Test Deleted Data",
       href: "#",
       imageSrc: "ReactCURD7.png",
       data: " ",
@@ -59,28 +59,28 @@ export default function ProjectReact() {
   const products = [
     {
       id: 1,
-      head: "เปิด XAMPP start MySQL",
+      head: "Test Open XAMPP Start MySQL",
       href: "#",
       imageSrc: "/ReactJS1.png",
       data: " ",
     },
     {
       id: 2,
-      head: "สร้างตัวแปรของ MySQL",
+      head: "Test Create MySQL Variables",
       href: "#",
       imageSrc: "ReactJS2.png",
       data: " ",
     },
     {
       id: 3,
-      head: "เปิด Code NodeJS",
+      head: "Test Open NodeJS Code",
       href: "#",
       imageSrc: "ReactJS3.png",
       data: " ",
     },
     {
       id: 4,
-      head: "RUN NodeJS ใช้ nodemon app.js",
+      head: "Test Run NodeJS with nodemon app.js",
       href: "#",
       imageSrc: "ReactJS4.png",
       data: " ",
@@ -91,21 +91,21 @@ export default function ProjectReact() {
   const dog = [
     {
       id: 1,
-      head: "หน้า Login",
+      head: "Test Login Page",
       href: "#",
       imageSrc: "/dog1.png",
       data: " ",
     },
     {
       id: 2,
-      head: "หน้า Username",
+      head: "Test Username Page",
       href: "#",
       imageSrc: "dog2.png",
       data: " ",
     },
     {
       id: 3,
-      head: "แสดงข้อมูลรูปหมา",
+      head: "Test Display Dog Images",
       href: "#",
       imageSrc: "dog3.png",
       data: " ",
@@ -115,42 +115,42 @@ export default function ProjectReact() {
   const runProducts = [
     {
       id: 1,
-      head: "หน้า Login",
+      head: "Test Login Page",
       href: "#",
       imageSrc: "ReactJS11.png",
       data: " ",
     },
     {
       id: 2,
-      head: "ใส่ email และ password ที่มีข้อมูลในฐานข้อมูล",
+      head: "Test Enter Email and Password",
       href: "#",
       imageSrc: "/ReactJS12.png",
       data: " ",
     },
     {
       id: 3,
-      head: "ฐานข้อมูล ที่มีข้อมูล",
+      head: "Test Database with Data",
       href: "#",
       imageSrc: "ReactJS121.png",
       data: " ",
     },  
     {
         id: 4,
-        head: "Login สำเร็จ",
+        head: "Test Login Success",
         href: "#",
         imageSrc: "ReactJS13.png",
         data: " ",
       },
       {
         id: 5,
-        head: "Login ไม่สำเร็จ",
+        head: "Test Login Failed",
         href: "#",
         imageSrc: "/ReactJS14.png",
         data: " ",
       },
       {
         id: 6,
-        head: "หน้า User",
+        head: "Test User Page",
         href: "#",
         imageSrc: "ReactJS15.png",
         data: " ",
@@ -160,35 +160,35 @@ export default function ProjectReact() {
   const runProductsSignUp = [ 
       {
         id: 7,
-        head: "หน้า SignUp ที่เพิ่มข้อมูล name, email, password",
+        head: "Test SignUp Page with name, email, password",
         href: "#",
         imageSrc: "ReactJS16.png",
         data: " ",
       },
       {
         id: 8,
-        head: "เพิ่มข้อมูลสำเร็จ",
+        head: "Test Add Data Success",
         href: "#",
         imageSrc: "/ReactJS17.png",
         data: " ",
       },
       {
         id: 9,
-        head: "ฐานข้อมูล ที่มีข้อมูลถูกเพิ่มขึ้นมา",
+        head: "Test Database with Added Data",
         href: "#",
         imageSrc: "ReactJS18.png",
         data: " ",
       }, 
       {
         id: 10,
-        head: "ข้อมูลที่ถูกเพิ่มล่าสุด นำมา Login",
+        head: "Test Login with Latest Added Data",
         href: "#",
         imageSrc: "ReactJS19.png",
         data: " ",
       },
       {
         id: 11,
-        head: "Login สำเร็จ จากข้อมูลที่ถูกเพิ่มล่าสุด",
+        head: "Test Login Success with Latest Data",
         href: "#",
         imageSrc: "ReactJS20.png",
         data: " ",
@@ -196,32 +196,32 @@ export default function ProjectReact() {
   ];
 
   return (
-    <div className="pb-10 bg-[url('/bg2.jpg')] bg-cover">
+    <div className="pb-10 bg-[url('/test-bg2.jpg')] bg-cover">
       <Navigatorbar />
       <div className="pt-28 text-center">
-        <p className="text-3xl font-extrabold">Project ReactJS </p>
+        <p className="text-3xl font-extrabold">Test Project ReactJS </p>
       </div>
 
       {/* 1. */}
       <div className="px-10">
           <p className="pt-7 text-lg">
-          <p className="text-xl pb-3 font-semibold">1. Web Rest API CRUD</p>
-          การทำ CRUD ข้อมูล ซึ่งประกอบไปด้วย Create : สร้าง, Read : อ่าน, Update : แก้ไข และ Delete : ลบ<br/>
-            เรียกใช้ข้อมูลผ่านการใช้ API ที่ให้บริการอยู่บนเว็บ https://www.melivecode.com/
+          <p className="text-xl pb-3 font-semibold">1. Test Web Rest API CRUD</p>
+          Test Text - CRUD operations: Create, Read, Update, Delete<br/>
+            Test Text - Using API service from https://www.melivecode.com/
           </p>
           <p className="pt-7 text-lg">
-            เขียน โดยใช้ ภาษา JavaScript Framework ReactJS  
+            Test Text - Written using JavaScript and ReactJS Framework  
           </p>
          <div className="pt-8">
             <Link href="https://github.com/unikonkon/React_CRUD_RestAPI">
-            <GitHubIcon className="mr-4 w-10 h-10"/>   GitHub Web Project
+            <GitHubIcon className="mr-4 w-10 h-10"/>   Test GitHub Web Project
             </Link>
          </div>
          <div className="pt-3">
             <Link href="https://react-crud-rest-api.vercel.app/">
             <LanguageIcon className="mr-4 w-10 h-10 text-sky-600"/>
             <p className="text-sky-600">
-            Link Web Project 
+            Test Link Web Project 
             </p> 
             </Link>
          </div>
@@ -229,7 +229,7 @@ export default function ProjectReact() {
        
       <div className="pb-12 sm:pb-10">
            <p className="pb-8 text-gray-900 text-lg px-10 pt-8">
-            ตัวอย่าง Web RestAPI CRUD
+            Test Example Web RestAPI CRUD
             </p>
         <div className="grid grid-cols-1 gap-y-10 gap-x-6 sm:grid-cols-2  lg:grid-cols-3 xl:gap-x-4 px-8">
         
@@ -237,7 +237,7 @@ export default function ProjectReact() {
             <div key={product.id} className="group relative">
               <div className="w-full   bg-gray-200 aspect-w-1 aspect-h-1 rounded-md overflow-hidden group-hover:opacity-75  lg:aspect-none">
                 <img
-                  src={product.imageSrc}
+                  src={product.imageSrc.replace(/\.(png|jpg|jpeg)$/i, '-test.jpg')}
                   className="w-full h-full object-center object-contain lg:w-full lg:h-full"
                 />
               </div>
@@ -261,22 +261,22 @@ export default function ProjectReact() {
         {/* 2. */}
         <div className="px-10">
           <p className="pt-7 text-lg">
-          <p className="text-xl pb-3 font-semibold">2. Web Save IMG Dog</p>
-          Web ที่ login เข้าไปแล้วจะแสดงภาพหมาแบบสุ่มจาก API สามารถ บันทึก ลบ โหลดภาพหมาอันใหม่ได้ และแสดงภาพหมาทั้งหมดที่บันทึก
+          <p className="text-xl pb-3 font-semibold">2. Test Web Save IMG Dog</p>
+          Test Text - Web application that displays random dog images from API, allows saving, deleting, loading new images, and shows all saved images
            </p>
           <p className="pt-7 text-lg">
-            เขียน โดยใช้ ภาษา JavaScript Framework ReactJS  
+            Test Text - Written using JavaScript and ReactJS Framework  
           </p>
          <div className="pt-8">
             <Link href="https://github.com/unikonkon/react_save_dog_app">
-            <GitHubIcon className="mr-4 w-10 h-10"/>   GitHub Web Project Save IMG Dog
+            <GitHubIcon className="mr-4 w-10 h-10"/>   Test GitHub Web Project Save IMG Dog
             </Link>
          </div>
          <div className="pt-3">
             <Link href="https://react-savedogapp.vercel.app/">
             <LanguageIcon className="mr-4 w-10 h-10 text-sky-600"/>
             <p className="text-sky-600">
-            Link Web Project Save IMG Dog
+            Test Link Web Project Save IMG Dog
             </p> 
             </Link>
          </div>
@@ -284,7 +284,7 @@ export default function ProjectReact() {
        
       <div className="pb-12 sm:pb-10">
            <p className="pb-8 text-gray-900 text-lg px-10 pt-8">
-            ตัวอย่าง Web Save IMG Dog
+            Test Example Web Save IMG Dog
             </p>
         <div className=" grid grid-cols-1 gap-y-10 gap-x-6 sm:grid-cols-2  lg:grid-cols-3 xl:gap-x-4 px-8">
         
@@ -292,7 +292,7 @@ export default function ProjectReact() {
             <div key={product.id} className="group relative">
               <div className="w-full   bg-gray-200 aspect-w-1 aspect-h-1 rounded-md overflow-hidden group-hover:opacity-75  lg:aspect-none">
                 <img
-                  src={product.imageSrc}
+                  src={product.imageSrc.replace(/\.(png|jpg|jpeg)$/i, '-test.jpg')}
                   className="w-full h-full object-center object-contain lg:w-full lg:h-full"
                 />
               </div>
@@ -316,38 +316,38 @@ export default function ProjectReact() {
       {/* 3. */}
       <div className="px-10">
           <p className="pt-10 text-lg">
-         <p className="text-xl pb-3 font-semibold">3. Web LogIn  </p>
-         เกี่ยวกับระบบ Login ที่ติดต่อกับฐานข้อมูล MySQL โดยเมื่อ login แล้วจะเข้าไปหน้า User และ มีหน้า SignUp ที่กรอกข้อมูล แล้วสามารถนำข้อมูลไปใส่หน้า Login แล้วจะเข้ามาหน้า User ได้
+         <p className="text-xl pb-3 font-semibold">3. Test Web LogIn  </p>
+         Test Text - Login system connected to MySQL database. After login, user can access User page. SignUp page allows registration, and users can login with registered credentials to access User page.
           </p>
           <p className="pt-7 ">
-            เขียน โดยใช้ ภาษา JavaScript Framework ReactJS ใช้ NodeJS เขียนฐานข้อมูล และฐานข้อมูลเป็น MySQL 
+            Test Text - Written using JavaScript, ReactJS Framework, NodeJS for backend, and MySQL database 
           </p>
          <div className="pt-5">
             <Link href="https://github.com/unikonkon/ReactJS_Login_API_MySQL">
-            <GitHubIcon className="mr-4 w-10 h-10"/>   GitHub Web Project
+            <GitHubIcon className="mr-4 w-10 h-10"/>   Test GitHub Web Project
             </Link>
          </div>
          <div className="pt-2">
             <Link href="https://github.com/unikonkon/ReactJS_Login_API_MySQL/tree/main/BlackEnd_NodeJs">
-            <GitHubIcon className="mr-4 w-10 h-10"/>   GitHub Web Project Code NodeJS BackEnd
+            <GitHubIcon className="mr-4 w-10 h-10"/>   Test GitHub Web Project Code NodeJS BackEnd
             </Link>
          </div>
          <div className="pt-8">
             <Link href="https://react-js-login-api-mysql.vercel.app/">
             <LanguageIcon className="mr-4 w-10 h-10 text-sky-600"/>
             <p className="text-sky-600">
-            Link Web Project 
-            </p> 
+            Test Link Web Project 
+            </p>
             </Link>
             <p className="pt-2 ">
-            ***แต่ Link web ข้างต้น ไม่สามารถ Login เข้าหน้า User ได้ และ SignUp ข้อมูลไม่ได้ เพราะไม่ได้เปิดฐานข้อมูล MySQL และ ไม่ได้รันฐานข้อมูล NodeJS
+            ***Test Note - The web link above cannot login to User page and cannot SignUp because MySQL database is not running and NodeJS backend is not started
           </p>
          </div>
         </div>
        
       <div className="pb-12 sm:pb-10">
            <p className="pb-8 text-gray-900 text-lg px-10 pt-16">
-            ตัวอย่าง Web การรันฐานข้อมูล NodeJS และ Start MySQL
+            Test Example Web - Running NodeJS database and Starting MySQL
             </p>
         <div className=" grid grid-cols-1 gap-y-10 gap-x-6 sm:grid-cols-2  lg:grid-cols-4 xl:gap-x-4 px-8">
         
@@ -355,7 +355,7 @@ export default function ProjectReact() {
             <div key={product.id} className="group relative">
               <div className="w-full   bg-gray-200 aspect-w-1 aspect-h-1 rounded-md overflow-hidden group-hover:opacity-75  lg:aspect-none">
                 <img
-                  src={product.imageSrc}
+                  src={product.imageSrc.replace(/\.(png|jpg|jpeg)$/i, '-test.jpg')}
                   className="w-full h-full object-center object-contain lg:w-full lg:h-full"
                 />
               </div>
@@ -377,7 +377,7 @@ export default function ProjectReact() {
 
       <div className="pb-20 sm:pb-16">
            <p className="pb-8 text-gray-900 text-lg px-10 pt-16">
-           ตัวอย่าง Web เมื่อรัน NodeJS และ เปิด MySQL
+           Test Example Web - When running NodeJS and opening MySQL
             </p>
         <div className=" grid grid-cols-1 gap-y-10 gap-x-6 sm:grid-cols-2  lg:grid-cols-4 xl:gap-x-4 px-8">
         
@@ -385,7 +385,7 @@ export default function ProjectReact() {
             <div key={product.id} className="group relative">
               <div className="w-full   bg-gray-200 aspect-w-1 aspect-h-1 rounded-md overflow-hidden group-hover:opacity-75  lg:aspect-none">
                 <img
-                  src={product.imageSrc}
+                  src={product.imageSrc.replace(/\.(png|jpg|jpeg)$/i, '-test.jpg')}
                   className="w-full h-full object-center object-contain lg:w-full lg:h-full"
                 />
               </div>
@@ -411,7 +411,7 @@ export default function ProjectReact() {
             <div key={product.id} className="group relative">
               <div className="w-full   bg-gray-200 aspect-w-1 aspect-h-1 rounded-md overflow-hidden group-hover:opacity-75  lg:aspect-none">
                 <img
-                  src={product.imageSrc}
+                  src={product.imageSrc.replace(/\.(png|jpg|jpeg)$/i, '-test.jpg')}
                   className="w-full h-full object-center object-contain lg:w-full lg:h-full"
                 />
               </div>

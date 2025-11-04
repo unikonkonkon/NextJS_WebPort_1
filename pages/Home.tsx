@@ -24,18 +24,17 @@ import GitHubIcon from '@mui/icons-material/GitHub';
         
           <div className="justify-center flex ">
             {/* <Image src="/port2.jpg" width={311} height={425} className="rounded-full " alt={""} />       */}
-       <div className="h-80 w-80 bg-cover bg-center bg-[url('/port2.jpg')] rounded-xl border-8 border-gray-50 drop-shadow-md"></div>
+       <div className="h-80 w-80 bg-cover bg-center bg-[url('/test-portrait.jpg')] rounded-xl border-8 border-gray-50 drop-shadow-md"></div>
         </div>
           
             <div className="lg:text-center pt-5">
               <p className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-700 sm:text-4xl">
-              About Me
+              Test About Me
               </p>
               <p className="mt-4 max-w-2xl text-xl text-gray-800 lg:mx-auto">
-                สวัสดีครับ ผมชื่อ นาย สุเทพ จันทวี ชื่อเล่น กล้วย จบการศึกษาจาก มหาวิทยาลัยเทคโนโลยีสุรนารี สาขาวิศวกรรมอิเล็กทรอนิกส์ <br />           
-                ผมมีความเข้าใจในการเขียนโปรแกรมภาษา HTML CSS C JavaScript Dart SQL
-                และ Framework ReactJS NextJS Flutter Bootstrap Tailwindcss NextUI Material-UI
-                และมีความสนใจในสกุลเงินดิจิตอล Cryptocurrency และ GameFi ที่ใช้เทคโนโลยีบล็อคเชน
+                Test Text - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. <br />           
+                Test Text - Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                Test Text - Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
               </p>
             </div>
   
@@ -43,9 +42,9 @@ import GitHubIcon from '@mui/icons-material/GitHub';
         </div>
         <div className=" pt-6 relative  bg-gradient-to-r from-slate-600 to-gray-500">
           <div className="absolute inset-x-0 top-12 md:right-20 right-0 text-gray-100 font-extrabold">
-          <div className="text-3xl pt-6 text-center ">ประสบการณ์ทำงาน Web Developer</div>
+          <div className="text-3xl pt-6 text-center ">Test Work Experience</div>
             <div className="text-2xl pt-2  text-center">
-             ระยะเวลา 10 เดือน
+             Test Duration: 10 months
             </div>
             <div className="md:z-30 flex justify-center md:pt-56 md:pl-32 pt-2">
             <Link href="https://github.com/unikonkon"> 
@@ -60,7 +59,7 @@ import GitHubIcon from '@mui/icons-material/GitHub';
                   <GitHubIcon sx={{ fontSize: 40 }} className=""/>  
                     </div>                 
                    <Text css={{ color: "#FDF6F6", fontWeight: "$semibold", fontSize: "$sm" }}
-                    className="text-center pt-2">Link GitHub </Text>                         
+                    className="text-center pt-2">Test Link GitHub </Text>                         
                 </Card.Body>
               </Card>
               </Link>
@@ -71,7 +70,7 @@ import GitHubIcon from '@mui/icons-material/GitHub';
         bg-center h-full pb-16 pt-8 ">
        
        <div className="pl-20 w-full md:h-96 h-56 flex flex-col pt-10 bg-cover
-           bg-center bg-[url('/home.jpg')] rounded-lg shadow-md ">    
+           bg-center bg-[url('/test-home.jpg')] rounded-lg shadow-md ">    
           </div>
       
          
@@ -87,7 +86,7 @@ import GitHubIcon from '@mui/icons-material/GitHub';
                   <Text  css={{
                    color: "#F7EEEE",
                     }}>
-                  ได้ทำหน้าที่เกี่ยวกับ เขียนเว็บ Front-end ตามที่ออกแบบมาจากเครื่องมือ Figma โดยใช้ภาษา JavaScript และ Framework ReactJS NextJS             
+                  Test Text - Front-end development work using JavaScript, ReactJS, and NextJS based on Figma designs.             
                   </Text>
                 </Card.Body>
               </Card>
@@ -103,7 +102,7 @@ import GitHubIcon from '@mui/icons-material/GitHub';
                   <Text css={{
                    color: "#F7EEEE",
                     }}>
-                  เขียน Mobile Front-end ตามที่ออกแบบมาจากเครื่องมือ Figma โดยใช้ภาษา Dart และ Framework Flutter 
+                  Test Text - Mobile Front-end development using Dart and Flutter framework based on Figma designs.
                   </Text>
                 </Card.Body>
               </Card>   
@@ -113,7 +112,7 @@ import GitHubIcon from '@mui/icons-material/GitHub';
          
         </div>
        
-        <div className="text-3xl text-center font-extrabold pb-8 md:pt-16 pt-1">Skills</div>
+        <div className="text-3xl text-center font-extrabold pb-8 md:pt-16 pt-1">Test Skills</div>
 
 
 
@@ -133,7 +132,7 @@ import GitHubIcon from '@mui/icons-material/GitHub';
               }}>
              <Col>
                <Text size={22} weight="bold" transform="uppercase" color="#EEE8E8FA">
-               Language 
+               Test Language 
                </Text>      
              </Col>
         </Card.Header>
@@ -144,7 +143,7 @@ import GitHubIcon from '@mui/icons-material/GitHub';
                   bottom: 0,
                   zIndex: 1,
                     }}>
-                  HTML CSS C JavaScript Dart SQL             
+                  Test HTML CSS JavaScript Dart SQL             
                   </Text>
         </Card.Body>
       </Card>     
@@ -154,7 +153,7 @@ import GitHubIcon from '@mui/icons-material/GitHub';
                 isHoverable
                 variant="bordered"
                 css={{ w: "70%", h: "130px", bgBlur: "#181B2B9D" }}
-                className="shadow-md bg-[url('/home.jpg')]"
+                className="shadow-md bg-[url('/test-home.jpg')]"
               >
          <Card.Header 
                  css={{
@@ -162,7 +161,7 @@ import GitHubIcon from '@mui/icons-material/GitHub';
                  bgBlur: "#FFFFFF35",       
               }}>                          
                <Text size={22} weight="bold" transform="uppercase" color="#EEE8E8FA">
-               Framework & Library
+               Test Framework & Library
                </Text>                           
             
         </Card.Header>
@@ -173,7 +172,7 @@ import GitHubIcon from '@mui/icons-material/GitHub';
                   bottom: 0,
                   zIndex: 1,
                     }}>
-                 ReactJS NextJS Flutter Bootstrap Tailwindcss NextUI Material-UI          
+                 Test ReactJS NextJS Flutter Bootstrap Tailwindcss NextUI Material-UI          
                   </Text>
         </Card.Body>
       </Card>     
@@ -184,7 +183,7 @@ import GitHubIcon from '@mui/icons-material/GitHub';
                 isHoverable
                 variant="bordered"
                 css={{ w: "70%", h: "130px", bgBlur: "#181B2B9D" }}
-                className="shadow-md bg-[url('/home.jpg')]"
+                className="shadow-md bg-[url('/test-home.jpg')]"
               >
          <Card.Header 
                  css={{
@@ -192,7 +191,7 @@ import GitHubIcon from '@mui/icons-material/GitHub';
                  bgBlur: "#FFFFFF35",       
               }}>                          
                <Text size={22} weight="bold" transform="uppercase" color="#EEE8E8FA">
-               Tool
+               Test Tool
                </Text>                           
             
         </Card.Header>
@@ -228,7 +227,7 @@ import GitHubIcon from '@mui/icons-material/GitHub';
               }}>
              <Col>
                <Text size={18} weight="bold" transform="uppercase" color="#EEE8E8FA">
-               Language 
+               Test Language 
                </Text>      
              </Col>
         </Card.Header>
@@ -239,7 +238,7 @@ import GitHubIcon from '@mui/icons-material/GitHub';
                   bottom: 0,
                   zIndex: 1,
                     }}>
-                  HTML CSS C JavaScript Dart             
+                  Test HTML CSS JavaScript Dart             
                   </Text>
         </Card.Body>
       </Card>     
@@ -249,7 +248,7 @@ import GitHubIcon from '@mui/icons-material/GitHub';
                 isHoverable
                 variant="bordered"
                 css={{ w: "70%", h: "160px", bgBlur: "#181B2B9D" }}
-                className="shadow-md bg-[url('/home.jpg')]"
+                className="shadow-md bg-[url('/test-home.jpg')]"
               >
          <Card.Header 
                  css={{
@@ -257,7 +256,7 @@ import GitHubIcon from '@mui/icons-material/GitHub';
                  bgBlur: "#FFFFFF35",       
               }}>                          
                <Text size={18} weight="bold" transform="uppercase" color="#EEE8E8FA">
-               Framework & Library
+               Test Framework & Library
                </Text>                           
             
         </Card.Header>
@@ -268,7 +267,7 @@ import GitHubIcon from '@mui/icons-material/GitHub';
                   bottom: 0,
                   zIndex: 1,
                     }}>
-                 ReactJS NextJS Flutter Bootstrap Tailwindcss NextUI          
+                 Test ReactJS NextJS Flutter Bootstrap Tailwindcss NextUI          
                   </Text>
         </Card.Body>
       </Card>     
@@ -279,7 +278,7 @@ import GitHubIcon from '@mui/icons-material/GitHub';
                 isHoverable
                 variant="bordered"
                 css={{ w: "70%", h: "180px", bgBlur: "#181B2B9D" }}
-                className="shadow-md bg-[url('/home.jpg')]"
+                className="shadow-md bg-[url('/test-home.jpg')]"
               >
          <Card.Header 
                  css={{
@@ -287,7 +286,7 @@ import GitHubIcon from '@mui/icons-material/GitHub';
                  bgBlur: "#FFFFFF35",       
               }}>                          
                <Text size={18} weight="bold" transform="uppercase" color="#EEE8E8FA">
-               Tool
+               Test Tool
                </Text>                           
             
         </Card.Header>
@@ -298,7 +297,7 @@ import GitHubIcon from '@mui/icons-material/GitHub';
                   bottom: 0,
                   zIndex: 1,
                     }}>
-                 Git Version Control , VSCode , Figma , Slack , Diagrams.net , Confluence Jira Software , Vercel
+                 Test Git Version Control, VSCode, Figma, Slack, Diagrams.net, Confluence Jira Software, Vercel
                   </Text>
         </Card.Body>
       </Card>     
